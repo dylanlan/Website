@@ -307,12 +307,8 @@ var templates = {
                          <div class="gha-message">{{{userLink}}} {{{message}}}</div><div class="gha-time">{{{timeString}}}</div>\
                          <div class="gha-clear"></div>\
                        </div>',
-  UserHeader: '<div class="gha-header">\
-                 <div class="gha-github-icon"><span class="octicon octicon-mark-github"></span></div>\
-                 <div class="gha-user-info{{withoutName}}">{{{userNameLink}}}<p>{{{userLink}}}</p></div>\
-                 <div class="gha-gravatar">{{{gravatarLink}}}</div>\
-               </div><div class="gha-push"></div>',
-  Footer: '<div class="gha-footer">Public Activity <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a>',
+  UserHeader: '<div></div>',
+  Footer: '<div></div>',
   NoActivity: '<div class="gha-info">This user does not have any public activity yet.</div>',
   NotFound: '<div class="gha-info">User {{username}} wasn\'t found.</div>',
   CommitCommentEvent: 'commented on commit {{{commentLink}}}<br>{{{userGravatar}}}<small>{{comment}}</small>',

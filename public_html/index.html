@@ -36,7 +36,7 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" width="200" height="200" alt="Dylan Stankievech" />
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" width="200" height="200" alt="Dylan Stankievech" />
             <div class="profile-content pull-left">
                 <h1 class="name">Dylan Stankievech</h1>
                 <h2 class="desc">Software Developer</h2>   
@@ -59,10 +59,14 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>I'm a software developer living in Edmonton, Alberta, Canada. I graduated with Honours in Computing Science at the University of Alberta. I have a broad range of experience, including a compiler written in Java, a multithreaded HTTP server written in C, a distributed social networking platform using Python (Django), and multiple desktop applications written in C#.</p>    
-         
-        <p>When I'm not worrying about lines of code, I like to spend my free time playing Super Smash Bros competitively. I also enjoy playing ping pong and badminton.</p>
-                         
+                            <p>
+                                I'm a software developer living in Edmonton, Alberta, Canada.
+                                I have a broad range of experience, including production React / Node webapp, C# Desktop Applications, Typescript CLI, and a React / Go service 
+                            </p>
+                            <p>
+                                When I'm not worrying about lines of code,
+                                I like to spend my free time playing Nintendo video games, and Beethoven songs on piano.
+                            </p>
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -71,36 +75,36 @@
                     <div class="section-inner">
                         <h2 class="heading">Latest Projects</h2>
                         <div class="content">    
-                                               
-                            <div class="item featured text-center">
-                                <h3 class="title"><a href="https://github.com/Dylanlan/Dylang" target="_blank">Dylang</a></h3>
-                                <p class="summary">An experimental programming language implemented using Java</p> 
-                                <div class="desc text-left">                                    
-                                    <p>Dylang is still in its infant stages. This project was written entirely by myself, for the purposes of self-learning, rather than creating something to be useful for other people. It's currently possible to write a program in Dylang to output prime numbers.</p>
-                                </div><!--//desc-->                       
-                            </div><!--//item-->
-							
                             <hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Tamarabyte/cmput410-project" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/hindlebook.png" alt="Hindlebook" />
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Dylanlan/pokemon-randomizer-api" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/pokemon.png" alt="Pokemon Randomizer" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="" target="_blank">Hindlebook</a></h3>
-                                    <p>A distributed social networking platform that I worked on with four other developers for a class project. It uses a RESTful API and was implemented using Django and Bootstrap.</p>
-                                </div><!--//desc-->                          
+                                    <h3 class="title"><a href="https://github.com/Dylanlan/pokemon-randomizer-api" target="_blank">Pokemon Randomizer</a></h3>
+                                    <p>A simple express server to generate random pokemon</p>
+                                </div><!--//desc-->
                             </div><!--//item-->
 							
-							<hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/kmorin1/CMPUT415-DashAB" target="_blank">DashAB Compiler
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Dylanlan/Dylang" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/dylang.png" alt="Dylang Programming Language" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="" target="_blank">DashAB Compiler</a></h3>
-                                    <p>DashAB was a language developed by IBM for the purposes of a compiler course. It is a subset of the <a href="http://www.cs.rochester.edu/drupal/cdp-2014-program">Dash Language</a>. I worked with three other developers to write an experimental compiler for this language. The project used the ANTLR3 library in Java.</p>
-                                </div><!--//desc-->                          
+                                    <h3 class="title"><a href="https://github.com/Dylanlan/Dylang" target="_blank">Dylang</a></h3>
+                                    <p>An experimental programming language implemented using Java</p>
+                                </div><!--//desc-->
                             </div><!--//item-->
-							
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/Dylanlan/d3-test" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/d3.png" alt="Charting Tool" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://github.com/Dylanlan/d3-test" target="_blank">D3 Tests</a></h3>
+                                    <p>A simple tool to import csv data and display in a chart, with export to PNG functionality</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -110,27 +114,27 @@
                         <h2 class="heading">Other Projects</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="#">Typing Practice</a></h3>
-                                <p class="summary">A C# desktop application used by myself to practice typing and to learn the DVORAK keyboard layout.</p>
+                                <h3 class="title"><a href="https://github.com/Dylanlan/mocha-bad-test-finder">Bad Test Finder</a></h3>
+                                <p class="summary">
+                                    A Typescript CLI to help find mocha tests that could be improved, eg: large, slow, or flaky tests.
+                                </p>
+                                <p><a class="more-link" href="https://github.com/Dylanlan/mocha-bad-test-finder" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://github.com/Dylanlan/TypingPractice">Typing Practice</a></h3>
+                                <p class="summary">
+                                    A C# desktop application used by myself to practice typing and to learn the DVORAK keyboard layout.
+                                </p>
                                 <p><a class="more-link" href="https://github.com/Dylanlan/TypingPractice" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><a href="#">Cookie Survey</a></h3>
-                                <p class="summary">A simple C# application that I used to automatically fill out  online Subway surveys to help me get free cookies. I used this program to get 1000+ cookies for free during my years at university.</p>
+                                <h3 class="title"><a href="https://github.com/Dylanlan/CookieSurvey">Cookie Survey</a></h3>
+                                <p class="summary">
+                                    A simple C# application that I used to automatically fill out online Subway surveys to help me get free cookies.
+                                    I used this program to get 1000+ cookies for free during my years at university.
+                                </p>
                                 <p><a class="more-link" href="https://github.com/Dylanlan/CookieSurvey" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
                             </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="#">ECSA Website</a></h3>
-                                <p class="summary">I helped rewrite the website for the East Campus Students' Association (ECSA), using AngularJS. We integrated Google Forms for interactive functionality.</p>
-                                <p><a class="more-link" href="https://github.com/ECSA/website" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-								<p><a class="more-link" href="http://www.ualberta.ca/~ecvhouse/" target="_blank"><i class="fa fa-external-link"></i> View the live website</a></p>
-                            </div><!--//item-->
-							<div class="item">
-                                <h3 class="title"><a href="#">ECSA-Helper</a></h3>
-                                <p class="summary">A C# desktop application that I wrote to help easily update the contact information on the ECSA website.</p>
-                                <p><a class="more-link" href="https://github.com/Dylanlan/ECSA-helper" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div><!--//item-->
-                            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
@@ -140,12 +144,29 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Software Developer - <span class="place"><a href="http://www.resolver.com/">Resolver</a></span> <span class="year">(June 2015 - Present)</span></h3>
-                                <p>I currently work as a software developer for Resolver. My primary experience has involved feature development and bug-fixing for a C# WPF desktop client and WCF web service. I prefer to work on the back-end, although I've also worked closely on the front end. I'm very familiar with concepts such as database locking, transaction isolation levels, authentication, sessions, caching, and service clustering.</p>
+                                <h3 class="title">Build and Tooling Engineer - <span class="place"><a href="http://www.resolver.com/">Resolver</a></span> <span class="year">(Oct 2019 - Present)</span></h3>
+                                <p>
+                                    Helped setup tooling to enable other developers with their day to day tasks.
+                                    Primary projects included a Typescript CLI, and a React / Go service.
+
+                                    Experienced with AWS, terraform, Gitlab pipelines, npm, yarn, monorepo tooling, eslint, and mocha.
+                                </p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Full Stack Developer - <span class="place"><a href="http://www.resolver.com/">Resolver</a></span> <span class="year">(June 2015 - Oct 2019)</span></h3>
+                                <p>
+                                    Worked as a full stack developer for multiple production applications.
+                                    Primary project was a React / Node microservices web app, with postgres, redis, elastic search, rabbitMQ, and grpc.
+
+                                    Other projects included a C# WPF desktop client and WCF web service,
+                                    with experience in database locking, transaction isolation levels, authentication, sessions, caching, and service clustering.</p>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Junior Software Developer - <span class="place"><a href="http://irc.construction.ualberta.ca/">University of Alberta</a></span> <span class="year">(2013 - 2014)</span></h3>
-                                <p>I worked as a junior software developer for the Department of Civil and Environmental Engineering at the University of Alberta. My main responsibilities involved writing C# with Visual Studio, SVN, and NUnit. I worked on a Discrete Event Simulating desktop application used by graduate students.</p>
+                                <p>
+                                    I worked as a junior software developer for the Department of Civil and Environmental Engineering at the University of Alberta.
+                                    My main responsibilities involved helping develop a Discrete Event Simulating desktop application written in C#.
+                                </p>
                             </div><!--//item-->
                             
                         </div><!--//content-->  
@@ -171,46 +192,37 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                The main languages that I use are C# and Java.</p>
+                                The main languages that I use are Node & Typescript</p>
                             <div class="skillset">
-                               
                                 <div class="item">
-                                    <h3 class="level-title">C#<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Experience includes multiple large scale desktop applications, and various side projects.">Expert</span></h3>
+                                    <h3 class="level-title">Node<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Experience includes production microservice web app, and multiple side projects ">Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="95%">
-                                        </div>                                      
+                                        </div>
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
 								
 								<div class="item">
-                                    <h3 class="level-title">SQL<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Well versed in writing stored procedures and triggers">Expert</span></h3>
+                                    <h3 class="level-title">Typescript<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Worked on multiple CLIs and some AWS lambdas">Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="90%">
-                                        </div>                                      
+                                        </div>
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">C#<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Worked on multiple production desktop applications">Advanced</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                 
 								<div class="item">
-                                    <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Projects include a personal compiler, and multiple Android apps">Pro</span></h3>
+                                    <h3 class="level-title">Go<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Worked on an internal service">Experienced</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-                                <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Projects include a distributed social networking platform">Advanced</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="80%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-								
-								<div class="item">
-                                    <h3 class="level-title">Perl<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="The first language I learned, and the one I used for a research project">Advanced</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="75%">
-                                        </div>                                      
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                             </div>              
